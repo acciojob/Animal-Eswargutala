@@ -8,7 +8,9 @@ body {
 
 #animal-photos {
     width: 80%;
-    margin: 40px auto;
+	height: 560px;
+    margin: 0px auto;
+	margin-bottom: 0px;
     padding: 20px;
     background-color: #3b3b3b;
     border-radius: 10px;
@@ -17,14 +19,14 @@ body {
 #photo-heading {
     text-align: center;
 	color: white;
-    letter-spacing: 0px;
+    letter-spacing: 2px;
     margin-bottom: 20px;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 15px;
 }
 
 .gallery img {
@@ -32,10 +34,5 @@ body {
     height: 150px;
     object-fit: cover;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     transition: transform 0.3s ease;
-}
-
-.gallery img:hover {
-    transform: scale(1.05);
 }
